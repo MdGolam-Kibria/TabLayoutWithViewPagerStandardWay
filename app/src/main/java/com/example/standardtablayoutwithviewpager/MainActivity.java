@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
         viewPager.setAdapter(fragmentPagerAdapter);
+        viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));//atar mane hosse fragment scroll er sathe tab o change hobe.
         //if you want to change something new below this is the function
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
