@@ -12,11 +12,12 @@
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         tools:ignore="MissingConstraints">
-
+        <!--below """"tabTextAppearance"""" this style for change small/large text style-->
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tabLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:tabTextAppearance="@style/MyCustomTextAppearance"
             app:tabGravity="fill"
             app:tabMode="fixed"
             app:tabIndicatorColor="#F12222"/>
